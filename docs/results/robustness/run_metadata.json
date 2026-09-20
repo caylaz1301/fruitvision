@@ -1,0 +1,92 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-09-16T06:34:42.345591+00:00",
+  "weights": "/Users/vdr/Documents/fruitvision/outputs/training/fruitvision_baseline/weights/best.pt",
+  "checkpoint_sha256": "52a50db1f0c3e7384040359887683bfdaa764ae996c72e87fd7f194064430d3c",
+  "source_dataset_sha256": "6a89fedd2e617b3b22cdef23043cf38c7f519bc09f585245a38284f156eadf04",
+  "split": "val",
+  "validation_counts": {
+    "images": 430,
+    "objects_per_class": {
+      "apple": 54,
+      "banana": 45,
+      "grape": 79,
+      "kiwi": 133,
+      "lemon": 43,
+      "orange": 90,
+      "peach": 44,
+      "pineapple": 59,
+      "strawberry": 177,
+      "watermelon": 156
+    },
+    "labels": 430,
+    "total_objects": 880
+  },
+  "class_mapping": {
+    "0": "apple",
+    "1": "banana",
+    "2": "grape",
+    "3": "kiwi",
+    "4": "lemon",
+    "5": "orange",
+    "6": "peach",
+    "7": "pineapple",
+    "8": "strawberry",
+    "9": "watermelon"
+  },
+  "conditions": {
+    "normal": {
+      "transform": "identity"
+    },
+    "dark": {
+      "transform": "brightness",
+      "factor": 0.5
+    },
+    "bright": {
+      "transform": "brightness",
+      "factor": 1.5
+    },
+    "blur": {
+      "transform": "gaussian_blur",
+      "radius": 2.0
+    },
+    "low_resolution": {
+      "transform": "resolution",
+      "scale": 0.25,
+      "downsample": "BOX",
+      "upsample": "BILINEAR"
+    }
+  },
+  "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "ultralytics": "8.4.152",
+    "torch": "2.14.0",
+    "Pillow": "10.4.0",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.10.3"
+  },
+  "device": "mps",
+  "primary_comparison": "relative mAP50_95 degradation versus same-run normal",
+  "note": "Diagnostic results: annotations are imperfect. MPS may be nondeterministic.",
+  "evaluation_settings": {
+    "split": "val",
+    "imgsz": 640,
+    "batch": 8,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false,
+    "workers": 0,
+    "seed": 42,
+    "deterministic": true,
+    "device": "mps",
+    "plots": true,
+    "save_txt": true,
+    "save_conf": true,
+    "verbose": false
+  },
+  "ended_at_utc": "2026-09-16T06:37:51.056102+00:00",
+  "source_dataset_unchanged": true,
+  "checkpoint_unchanged": true
+}

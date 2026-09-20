@@ -1,0 +1,10 @@
+{
+  "verified_at_utc": "2026-09-16T05:53:16.646278+00:00",
+  "source_zip": "/Users/vdr/Downloads/Fruit.v1i.yolov11.zip",
+  "source_sha256": "678be4a962f09ed357b67ec0344bf07002f9f465632ae3b66d068f523ad46013",
+  "source_zip_unchanged": true,
+  "processed_dataset_unchanged_since_training": true,
+  "dataset_sha256": "6a89fedd2e617b3b22cdef23043cf38c7f519bc09f585245a38284f156eadf04",
+  "tests_passed": 36,
+  "validation": "passed"
+}

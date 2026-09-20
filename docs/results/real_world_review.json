@@ -1,0 +1,351 @@
+{
+  "decision": "retain baseline; closeups_v2 rejected for validation regression and unresolved banana/lemon error",
+  "evaluation": {
+    "split": "val",
+    "device": "cpu",
+    "img_size": 640,
+    "batch_size": 8,
+    "confidence_floor": 0.001,
+    "test_evaluated": false
+  },
+  "baseline": {
+    "overall": {
+      "precision": 0.8935938474735181,
+      "recall": 0.8576670322304463,
+      "f1": 0.8678103232907347,
+      "map50": 0.8855229878087055,
+      "map50_95": 0.7107801059989945
+    },
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "apple",
+        "ground_truth_objects": 54,
+        "precision": 1.0,
+        "recall": 0.7624936402325314,
+        "f1": 0.8652441323214456,
+        "map50": 0.8867661911675586,
+        "map50_95": 0.5988261068421273
+      },
+      {
+        "class_id": 1,
+        "class_name": "banana",
+        "ground_truth_objects": 45,
+        "precision": 0.9605884007587159,
+        "recall": 1.0,
+        "f1": 0.9798980758908741,
+        "map50": 0.9941304347826088,
+        "map50_95": 0.887917022077508
+      },
+      {
+        "class_id": 2,
+        "class_name": "grape",
+        "ground_truth_objects": 79,
+        "precision": 0.8275890862932314,
+        "recall": 0.48615127304741484,
+        "f1": 0.6125007654686481,
+        "map50": 0.6869230167978949,
+        "map50_95": 0.40741448311349826
+      },
+      {
+        "class_id": 3,
+        "class_name": "kiwi",
+        "ground_truth_objects": 133,
+        "precision": 0.8327866307024631,
+        "recall": 0.8646616541353384,
+        "f1": 0.8484248646359127,
+        "map50": 0.9239251366819368,
+        "map50_95": 0.727636151433688
+      },
+      {
+        "class_id": 4,
+        "class_name": "lemon",
+        "ground_truth_objects": 43,
+        "precision": 0.993731597452213,
+        "recall": 1.0,
+        "f1": 0.996855944623741,
+        "map50": 0.995,
+        "map50_95": 0.9675003615712832
+      },
+      {
+        "class_id": 5,
+        "class_name": "orange",
+        "ground_truth_objects": 90,
+        "precision": 0.6910011368355625,
+        "recall": 0.8666666666666667,
+        "f1": 0.7689285874403672,
+        "map50": 0.6894377941359389,
+        "map50_95": 0.5346694714464764
+      },
+      {
+        "class_id": 6,
+        "class_name": "peach",
+        "ground_truth_objects": 44,
+        "precision": 0.96951559413948,
+        "recall": 1.0,
+        "f1": 0.984521876368367,
+        "map50": 0.995,
+        "map50_95": 0.8765692830734718
+      },
+      {
+        "class_id": 7,
+        "class_name": "pineapple",
+        "ground_truth_objects": 59,
+        "precision": 0.8153793473845922,
+        "recall": 0.8813559322033898,
+        "f1": 0.8470849088350965,
+        "map50": 0.8964960013738561,
+        "map50_95": 0.7094606605106084
+      },
+      {
+        "class_id": 8,
+        "class_name": "strawberry",
+        "ground_truth_objects": 177,
+        "precision": 0.9658396403785546,
+        "recall": 0.9717514124293786,
+        "f1": 0.9687865077184369,
+        "map50": 0.9923175466037869,
+        "map50_95": 0.8292759045093018
+      },
+      {
+        "class_id": 9,
+        "class_name": "watermelon",
+        "ground_truth_objects": 156,
+        "precision": 0.8795070407903689,
+        "recall": 0.7435897435897436,
+        "f1": 0.8058575696044584,
+        "map50": 0.7952337565434744,
+        "map50_95": 0.5685316154119817
+      }
+    ]
+  },
+  "closeups_v2": {
+    "overall": {
+      "precision": 0.863040690678833,
+      "recall": 0.8793829635127747,
+      "f1": 0.8670996666883346,
+      "map50": 0.8820672449917165,
+      "map50_95": 0.5998970455947948
+    },
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "apple",
+        "ground_truth_objects": 54,
+        "precision": 0.9100885375123017,
+        "recall": 0.8518518518518519,
+        "f1": 0.8800077581611858,
+        "map50": 0.8843335278587713,
+        "map50_95": 0.53818064145146
+      },
+      {
+        "class_id": 1,
+        "class_name": "banana",
+        "ground_truth_objects": 45,
+        "precision": 0.9568191977966496,
+        "recall": 0.9849233959595137,
+        "f1": 0.9706679110233042,
+        "map50": 0.9928156028368794,
+        "map50_95": 0.7099608077065495
+      },
+      {
+        "class_id": 2,
+        "class_name": "grape",
+        "ground_truth_objects": 79,
+        "precision": 0.7505139670884083,
+        "recall": 0.5712076958173624,
+        "f1": 0.6486983846157641,
+        "map50": 0.6954553118413226,
+        "map50_95": 0.36191599276963193
+      },
+      {
+        "class_id": 3,
+        "class_name": "kiwi",
+        "ground_truth_objects": 133,
+        "precision": 0.8401835065539847,
+        "recall": 0.8571428571428571,
+        "f1": 0.8485784546036941,
+        "map50": 0.924208712113849,
+        "map50_95": 0.6486072054051395
+      },
+      {
+        "class_id": 4,
+        "class_name": "lemon",
+        "ground_truth_objects": 43,
+        "precision": 0.9922759773953687,
+        "recall": 1.0,
+        "f1": 0.9961230157406559,
+        "map50": 0.995,
+        "map50_95": 0.7732002583979327
+      },
+      {
+        "class_id": 5,
+        "class_name": "orange",
+        "ground_truth_objects": 90,
+        "precision": 0.6467799782455663,
+        "recall": 0.8777777777777778,
+        "f1": 0.7447787265159662,
+        "map50": 0.7106035868850057,
+        "map50_95": 0.456641771999318
+      },
+      {
+        "class_id": 6,
+        "class_name": "peach",
+        "ground_truth_objects": 44,
+        "precision": 0.9927057008686612,
+        "recall": 1.0,
+        "f1": 0.996339500043504,
+        "map50": 0.995,
+        "map50_95": 0.8189761072261073
+      },
+      {
+        "class_id": 7,
+        "class_name": "pineapple",
+        "ground_truth_objects": 59,
+        "precision": 0.763432288533107,
+        "recall": 0.929876230290372,
+        "f1": 0.838473946893456,
+        "map50": 0.829907173004448,
+        "map50_95": 0.5111554611286558
+      },
+      {
+        "class_id": 8,
+        "class_name": "strawberry",
+        "ground_truth_objects": 177,
+        "precision": 0.9687647256908922,
+        "recall": 0.9887005649717514,
+        "f1": 0.9786311268804638,
+        "map50": 0.9943280728984565,
+        "map50_95": 0.707452997405951
+      },
+      {
+        "class_id": 9,
+        "class_name": "watermelon",
+        "ground_truth_objects": 156,
+        "precision": 0.8088430271033907,
+        "recall": 0.7323492613162604,
+        "f1": 0.7686978424053518,
+        "map50": 0.7990204624784303,
+        "map50_95": 0.47287921245720244
+      }
+    ],
+    "epochs": 6,
+    "training_device": "mps",
+    "duration_seconds": 1218.9416377919997
+  },
+  "examples": [
+    {
+      "file": "WhatsApp Image 2026-09-17 at 15.39.41 (1).jpeg",
+      "sha256": "e8876405bd1eea91a5064457ae30c54e483b294b795b42fb2e2d448554b1b027",
+      "expected_class_from_user": "banana",
+      "baseline": [
+        {
+          "bbox_xyxy": [
+            77.74369049072266,
+            176.3902130126953,
+            1198.7833251953125,
+            1150.71435546875
+          ],
+          "class_id": 4,
+          "class_name": "lemon",
+          "confidence": 0.42585739493370056
+        }
+      ],
+      "candidate": [
+        {
+          "bbox_xyxy": [
+            38.507659912109375,
+            8.708563804626465,
+            1195.142333984375,
+            1138.239990234375
+          ],
+          "class_id": 4,
+          "class_name": "lemon",
+          "confidence": 0.3099151849746704
+        },
+        {
+          "bbox_xyxy": [
+            380.41094970703125,
+            352.2801208496094,
+            1206.0,
+            1192.7626953125
+          ],
+          "class_id": 1,
+          "class_name": "banana",
+          "confidence": 0.26880204677581787
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-09-17 at 15.39.41 (2).jpeg",
+      "sha256": "a08fde56ae98cb5af2f05ab6421262b34217e2c3079d31646336367b5cf75541",
+      "expected_class_from_user": "grape",
+      "baseline": [
+        {
+          "bbox_xyxy": [
+            71.36553955078125,
+            315.9092712402344,
+            651.8352661132812,
+            925.7235107421875
+          ],
+          "class_id": 2,
+          "class_name": "grape",
+          "confidence": 0.7081785202026367
+        }
+      ],
+      "candidate": [
+        {
+          "bbox_xyxy": [
+            47.333492279052734,
+            284.6924133300781,
+            652.7100830078125,
+            950.177001953125
+          ],
+          "class_id": 2,
+          "class_name": "grape",
+          "confidence": 0.762351393699646
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-09-17 at 15.39.41.jpeg",
+      "sha256": "e3086088431d2c4840ba0a808c26a43784385d79270570892d827b8b0b29e3e7",
+      "expected_class_from_user": "grape",
+      "baseline": [
+        {
+          "bbox_xyxy": [
+            121.31652069091797,
+            199.98976135253906,
+            1106.4456787109375,
+            976.4417724609375
+          ],
+          "class_id": 2,
+          "class_name": "grape",
+          "confidence": 0.7757999897003174
+        }
+      ],
+      "candidate": [
+        {
+          "bbox_xyxy": [
+            34.00141906738281,
+            136.27349853515625,
+            1166.6221923828125,
+            1045.470703125
+          ],
+          "class_id": 2,
+          "class_name": "grape",
+          "confidence": 0.7787937521934509
+        }
+      ]
+    }
+  ],
+  "example_note": "Three user-provided diagnostic photos. No ground-truth boxes, so no object-level accuracy or AP is claimed. Photos were not added to training.",
+  "integrity": {
+    "baseline_sha256": "52a50db1f0c3e7384040359887683bfdaa764ae996c72e87fd7f194064430d3c",
+    "baseline_unchanged": true,
+    "processed_dataset_unchanged": true,
+    "dataset_sha256": "6a89fedd2e617b3b22cdef23043cf38c7f519bc09f585245a38284f156eadf04",
+    "val_copied_bytes_identical": true,
+    "test_copied_bytes_identical": true
+  }
+}

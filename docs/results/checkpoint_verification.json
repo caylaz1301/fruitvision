@@ -1,0 +1,38 @@
+{
+  "best.pt": {
+    "bytes": 5476762,
+    "sha256": "52a50db1f0c3e7384040359887683bfdaa764ae996c72e87fd7f194064430d3c",
+    "class_mapping": {
+      "0": "apple",
+      "1": "banana",
+      "2": "grape",
+      "3": "kiwi",
+      "4": "lemon",
+      "5": "orange",
+      "6": "peach",
+      "7": "pineapple",
+      "8": "strawberry",
+      "9": "watermelon"
+    },
+    "loaded": true,
+    "architecture": "yolo11n.yaml"
+  },
+  "last.pt": {
+    "bytes": 5476762,
+    "sha256": "112bee8034335a7740a4ab94e2f8e62b6c0eae85077cbfa93ed276a9b9349f55",
+    "class_mapping": {
+      "0": "apple",
+      "1": "banana",
+      "2": "grape",
+      "3": "kiwi",
+      "4": "lemon",
+      "5": "orange",
+      "6": "peach",
+      "7": "pineapple",
+      "8": "strawberry",
+      "9": "watermelon"
+    },
+    "loaded": true,
+    "architecture": "yolo11n.yaml"
+  }
+}

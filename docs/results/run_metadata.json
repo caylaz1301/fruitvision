@@ -1,0 +1,71 @@
+{
+  "arguments": {
+    "data": "/Users/vdr/Documents/fruitvision/configs/dataset.yaml",
+    "model": "yolo11n.pt",
+    "epochs": 50,
+    "img_size": 640,
+    "batch_size": 8,
+    "device": "auto",
+    "seed": 42,
+    "name": "fruitvision_baseline"
+  },
+  "device": "mps",
+  "packages": {
+    "ultralytics": "8.4.152",
+    "torch": "2.14.0",
+    "Pillow": "10.4.0",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.10.3"
+  },
+  "dataset_summary": {
+    "train": {
+      "images": 1550,
+      "objects_per_class": {
+        "apple": 194,
+        "banana": 200,
+        "grape": 315,
+        "kiwi": 391,
+        "lemon": 157,
+        "orange": 295,
+        "peach": 164,
+        "pineapple": 226,
+        "strawberry": 723,
+        "watermelon": 739
+      }
+    },
+    "val": {
+      "images": 430,
+      "objects_per_class": {
+        "apple": 54,
+        "banana": 45,
+        "grape": 79,
+        "kiwi": 133,
+        "lemon": 43,
+        "orange": 90,
+        "peach": 44,
+        "pineapple": 59,
+        "strawberry": 177,
+        "watermelon": 156
+      }
+    }
+  },
+  "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "started_at_utc": "2026-09-15T10:17:57.720291+00:00",
+  "status": "completed",
+  "reproducibility_note": "Seeds are fixed; MPS operations may remain nondeterministic.",
+  "resumptions": [
+    {
+      "checkpoint": "/Users/vdr/Documents/fruitvision/outputs/training/fruitvision_baseline/weights/last.pt",
+      "resumed_at_utc": "2026-09-15T14:15:11.569646+00:00",
+      "epochs_completed_before_resume": 26,
+      "completed_epoch_seconds_before_resume": 5329.98,
+      "reason": "Continuation after the previous training process stopped; saved configuration and optimizer restored.",
+      "duration_seconds": 2868.891893917
+    }
+  ],
+  "ended_at_utc": "2026-09-15T15:03:22.211036+00:00",
+  "epochs_completed": 50,
+  "early_stopped": false
+}

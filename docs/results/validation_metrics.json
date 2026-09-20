@@ -1,0 +1,176 @@
+{
+  "overall": {
+    "precision": 0.893593983705839,
+    "recall": 0.8576670151269761,
+    "f1": 0.8678103837976978,
+    "map50": 0.8855229878087055,
+    "map50_95": 0.7107801059989945
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "apple",
+      "ground_truth_objects": 54,
+      "precision": 1.0,
+      "recall": 0.7624934393039432,
+      "f1": 0.8652440029564851,
+      "map50": 0.8867661911675586,
+      "map50_95": 0.5988261068421273
+    },
+    {
+      "class_id": 1,
+      "class_name": "banana",
+      "ground_truth_objects": 45,
+      "precision": 0.9605882079774126,
+      "recall": 1.0,
+      "f1": 0.9798979755859872,
+      "map50": 0.9941304347826088,
+      "map50_95": 0.887917022077508
+    },
+    {
+      "class_id": 2,
+      "class_name": "grape",
+      "ground_truth_objects": 79,
+      "precision": 0.8275890950318696,
+      "recall": 0.48615130294130104,
+      "f1": 0.6125007915878554,
+      "map50": 0.6869230167978949,
+      "map50_95": 0.40741448311349826
+    },
+    {
+      "class_id": 3,
+      "class_name": "kiwi",
+      "ground_truth_objects": 133,
+      "precision": 0.8327869531180058,
+      "recall": 0.8646616541353384,
+      "f1": 0.848425031954881,
+      "map50": 0.9239251366819368,
+      "map50_95": 0.727636151433688
+    },
+    {
+      "class_id": 4,
+      "class_name": "lemon",
+      "ground_truth_objects": 43,
+      "precision": 0.9937315951697394,
+      "recall": 1.0,
+      "f1": 0.9968559434753167,
+      "map50": 0.995,
+      "map50_95": 0.9675003615712832
+    },
+    {
+      "class_id": 5,
+      "class_name": "orange",
+      "ground_truth_objects": 90,
+      "precision": 0.6910011426716336,
+      "recall": 0.8666666666666667,
+      "f1": 0.7689285910536757,
+      "map50": 0.6894377941359389,
+      "map50_95": 0.5346694714464764
+    },
+    {
+      "class_id": 6,
+      "class_name": "peach",
+      "ground_truth_objects": 44,
+      "precision": 0.9695170950856626,
+      "recall": 1.0,
+      "f1": 0.9845226502524917,
+      "map50": 0.995,
+      "map50_95": 0.8765692830734718
+    },
+    {
+      "class_id": 7,
+      "class_name": "pineapple",
+      "ground_truth_objects": 59,
+      "precision": 0.8153792556402251,
+      "recall": 0.8813559322033898,
+      "f1": 0.8470848593261242,
+      "map50": 0.8964960013738561,
+      "map50_95": 0.7094606605106084
+    },
+    {
+      "class_id": 8,
+      "class_name": "strawberry",
+      "ground_truth_objects": 177,
+      "precision": 0.9658395649226806,
+      "recall": 0.9717514124293786,
+      "f1": 0.9687864697599242,
+      "map50": 0.9923175466037869,
+      "map50_95": 0.8292759045093018
+    },
+    {
+      "class_id": 9,
+      "class_name": "watermelon",
+      "ground_truth_objects": 156,
+      "precision": 0.879506927441162,
+      "recall": 0.7435897435897436,
+      "f1": 0.805857522024237,
+      "map50": 0.7952337565434744,
+      "map50_95": 0.5685316154119817
+    }
+  ],
+  "metric_notes": "Macro averages over classes with ground truth. Precision, recall and F1 use Ultralytics' confidence operating point selected for best mean F1 at IoU 0.5. F1 is the mean of per-class F1, not the harmonic mean of overall precision and recall. AP integrates the precision-recall curve; null means no ground truth for that class.",
+  "run": {
+    "weights": "/Users/vdr/Documents/fruitvision/outputs/training/fruitvision_baseline/weights/best.pt",
+    "split": "val",
+    "img_size": 640,
+    "batch_size": 8,
+    "confidence_floor": 0.001,
+    "seed": 42,
+    "device": "mps",
+    "packages": {
+      "ultralytics": "8.4.152",
+      "torch": "2.14.0",
+      "Pillow": "10.4.0",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.3"
+    },
+    "dataset_summary": {
+      "train": {
+        "images": 1550,
+        "objects_per_class": {
+          "apple": 194,
+          "banana": 200,
+          "grape": 315,
+          "kiwi": 391,
+          "lemon": 157,
+          "orange": 295,
+          "peach": 164,
+          "pineapple": 226,
+          "strawberry": 723,
+          "watermelon": 739
+        }
+      },
+      "val": {
+        "images": 430,
+        "objects_per_class": {
+          "apple": 54,
+          "banana": 45,
+          "grape": 79,
+          "kiwi": 133,
+          "lemon": 43,
+          "orange": 90,
+          "peach": 44,
+          "pineapple": 59,
+          "strawberry": 177,
+          "watermelon": 156
+        }
+      },
+      "test": {
+        "images": 237,
+        "objects_per_class": {
+          "apple": 24,
+          "banana": 24,
+          "grape": 37,
+          "kiwi": 69,
+          "lemon": 24,
+          "orange": 39,
+          "peach": 27,
+          "pineapple": 36,
+          "strawberry": 55,
+          "watermelon": 104
+        }
+      }
+    },
+    "completed_at_utc": "2026-09-16T05:45:19.820793+00:00"
+  }
+}

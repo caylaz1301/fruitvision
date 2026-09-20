@@ -1,0 +1,38 @@
+{
+  "completed_at_utc": "2026-09-16T05:51:05.887981+00:00",
+  "split": "val",
+  "confidence": 0.25,
+  "iou": 0.5,
+  "totals": {
+    "tp": 798,
+    "fp": 258,
+    "fn": 82,
+    "small_false_negatives": 28
+  },
+  "observations": [
+    "Single apple on white background is a true positive (98.0% confidence).",
+    "Two grape bunches both detected; an additional overlapping pineapple detection at 33.6% is an incorrect extra class label, even though neither grape is missed.",
+    "Tightly packed watermelons: 18 TP, 3 FN; touching and partial visibility complicate detection.",
+    "Watermelon field: 5 TP, 1 FP, 14 FN; many distant, small or leaf-obscured fruit are missed.",
+    "Market watermelons: 14 TP, 30 FP relative to annotations, 6 FN; distant objects and extra boxes on large foreground fruit are visible.",
+    "Orange refrigerator: 10 TP, 39 FP relative to annotations. Many visible oranges are unannotated; these scores conflate incomplete labeling with model errors. No labels were changed.",
+    "Confirmed orange-to-kiwi error: images-65-_jpeg.rf.e6b0255b61b10ea30d5dbfff868afb87.jpg has visibly orange fruit; one labeled orange predicted kiwi at 80.6%, IoU 0.912. Other incorrect kiwi/watermelon boxes are present.",
+    "Low-confidence example: -_jpg.rf.a3dd29c7ab28e1976f6d339995fd2438.jpg has an unmatched grape box with an overlapping grape prediction at 9.83%, below the fixed 25% threshold. No threshold was changed.",
+    "Greedy unmatched-pair analysis found three orange-to-kiwi pairs. This excludes wrong-class extra predictions on already correctly detected objects.",
+    "Native Ultralytics confusion matrix uses confidence floor 0.001 and IoU 0.45 for this run; its low-score confusions should not be read as deployment-threshold error counts.",
+    "No obvious sustained overfitting: train and validation losses decline; AP50 largely plateaus, AP50-95 makes smaller late gains."
+  ],
+  "small_objects": {
+    "definition": "box area <1% of image",
+    "objects": 50,
+    "missed": 28
+  },
+  "crowded": {
+    "tp": 321,
+    "fp": 145,
+    "fn": 55
+  },
+  "multiple_class_images": 0,
+  "test_metrics_accessed": false,
+  "model_settings_changed": false
+}

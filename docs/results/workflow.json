@@ -1,0 +1,33 @@
+{
+  "updated_at_utc": "2026-09-16T05:59:20.328419+00:00",
+  "status": "completed",
+  "completed": [
+    "source annotation investigation",
+    "one exact duplicate training row removed",
+    "processed dataset audit and validation",
+    "36 passing tests",
+    "50-epoch baseline completed",
+    "best and last checkpoints verified",
+    "validation evaluation and visual error analysis",
+    "one final test evaluation",
+    "five real inference examples verified",
+    "baseline documentation and final checks"
+  ],
+  "training_run": "outputs/training/fruitvision_baseline",
+  "training_resume_log": "outputs/training/fruitvision_baseline_resume.log",
+  "remaining": [],
+  "validation_evaluation_started": true,
+  "validation_analysis_complete": true,
+  "test_evaluation_started": true,
+  "diagnostic_thresholds": {
+    "confidence": 0.25,
+    "iou": 0.5
+  },
+  "model_settings_changed_after_validation": false,
+  "validation_analysis_completed_at_utc": "2026-09-16T05:51:05.887981+00:00",
+  "test_evaluation_requested_after_validation_review": true,
+  "test_evaluation_complete": true,
+  "test_evaluation_completed_at_utc": "2026-09-16T05:51:47.863048+00:00",
+  "inference_examples": 5,
+  "tests_passed": 36
+}

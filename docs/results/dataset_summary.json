@@ -1,0 +1,120 @@
+{
+  "status": "valid",
+  "audited_at_utc": "2026-09-16T05:52:13.283618+00:00",
+  "dataset_directory": "/Users/vdr/Documents/fruitvision/data/processed",
+  "class_mapping": {
+    "0": "apple",
+    "1": "banana",
+    "2": "grape",
+    "3": "kiwi",
+    "4": "lemon",
+    "5": "orange",
+    "6": "peach",
+    "7": "pineapple",
+    "8": "strawberry",
+    "9": "watermelon"
+  },
+  "source": {
+    "workspace": "simons-workspace-l89qb",
+    "project": "fruit-smrhb-tp0nb",
+    "version": 1,
+    "license": "CC BY 4.0",
+    "url": "https://universe.roboflow.com/simons-workspace-l89qb/fruit-smrhb-tp0nb/dataset/1"
+  },
+  "splits": {
+    "train": {
+      "images": 1550,
+      "objects_per_class": {
+        "apple": 194,
+        "banana": 200,
+        "grape": 315,
+        "kiwi": 391,
+        "lemon": 157,
+        "orange": 295,
+        "peach": 164,
+        "pineapple": 226,
+        "strawberry": 723,
+        "watermelon": 739
+      },
+      "labels": 1550,
+      "total_objects": 3404
+    },
+    "val": {
+      "images": 430,
+      "objects_per_class": {
+        "apple": 54,
+        "banana": 45,
+        "grape": 79,
+        "kiwi": 133,
+        "lemon": 43,
+        "orange": 90,
+        "peach": 44,
+        "pineapple": 59,
+        "strawberry": 177,
+        "watermelon": 156
+      },
+      "labels": 430,
+      "total_objects": 880
+    },
+    "test": {
+      "images": 237,
+      "objects_per_class": {
+        "apple": 24,
+        "banana": 24,
+        "grape": 37,
+        "kiwi": 69,
+        "lemon": 24,
+        "orange": 39,
+        "peach": 27,
+        "pineapple": 36,
+        "strawberry": 55,
+        "watermelon": 104
+      },
+      "labels": 237,
+      "total_objects": 439
+    }
+  },
+  "total_images": 2217,
+  "total_labels": 2217,
+  "total_objects": 4723,
+  "objects_per_class": {
+    "apple": 272,
+    "banana": 269,
+    "grape": 431,
+    "kiwi": 593,
+    "lemon": 224,
+    "orange": 424,
+    "peach": 235,
+    "pineapple": 321,
+    "strawberry": 955,
+    "watermelon": 999
+  },
+  "empty_label_files": [
+    "labels/train/img_411_jpeg.rf.594874dd52557bd505fa98f2fa77b9a3.txt"
+  ],
+  "duplicate_annotation_rows": [],
+  "exact_duplicate_images": [
+    [
+      "images/train/IMG_3598_jpeg_jpeg_jpg.rf.0061f4f5818ac247be00713e63cf70ec.jpg",
+      "images/train/image-117_jpg.rf.ece1ba7d69c518be6997901c9e34a90d.jpg"
+    ],
+    [
+      "images/val/img00441_jpg.rf.2e5ce8061b5d9149bea5fa6dd43e3983.jpg",
+      "images/val/img00441_jpg.rf.57ecf601699f495336573c6ce1350ee5.jpg"
+    ]
+  ],
+  "identical_pixel_images": [
+    [
+      "images/train/IMG_3598_jpeg_jpeg_jpg.rf.0061f4f5818ac247be00713e63cf70ec.jpg",
+      "images/train/image-117_jpg.rf.ece1ba7d69c518be6997901c9e34a90d.jpg"
+    ],
+    [
+      "images/val/img00441_jpg.rf.2e5ce8061b5d9149bea5fa6dd43e3983.jpg",
+      "images/val/img00441_jpg.rf.57ecf601699f495336573c6ce1350ee5.jpg"
+    ]
+  ],
+  "cross_split_duplicates": [],
+  "missing_pairs": [],
+  "invalid_labels": [],
+  "dataset_sha256": "6a89fedd2e617b3b22cdef23043cf38c7f519bc09f585245a38284f156eadf04"
+}

@@ -1,0 +1,28 @@
+{
+  "training_objects": {
+    "apple": 194,
+    "banana": 200,
+    "grape": 315,
+    "kiwi": 391,
+    "lemon": 157,
+    "orange": 295,
+    "peach": 164,
+    "pineapple": 226,
+    "strawberry": 723,
+    "watermelon": 739
+  },
+  "validation_ap50_95": {
+    "apple": 59.882610684212736,
+    "banana": 88.7917022077508,
+    "grape": 40.74144831134983,
+    "kiwi": 72.7636151433688,
+    "lemon": 96.75003615712832,
+    "orange": 53.466947144647634,
+    "peach": 87.65692830734719,
+    "pineapple": 70.94606605106084,
+    "strawberry": 82.92759045093018,
+    "watermelon": 56.85316154119817
+  },
+  "pearson_r": -0.22328025580375,
+  "note": "Descriptive association across only ten classes; no causal inference."
+}

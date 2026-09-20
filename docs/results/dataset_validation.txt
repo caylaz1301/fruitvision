@@ -1,0 +1,3 @@
+train: {'images': 1550, 'objects_per_class': {'apple': 194, 'banana': 200, 'grape': 315, 'kiwi': 391, 'lemon': 157, 'orange': 295, 'peach': 164, 'pineapple': 226, 'strawberry': 723, 'watermelon': 739}}
+val: {'images': 430, 'objects_per_class': {'apple': 54, 'banana': 45, 'grape': 79, 'kiwi': 133, 'lemon': 43, 'orange': 90, 'peach': 44, 'pineapple': 59, 'strawberry': 177, 'watermelon': 156}}
+test: {'images': 237, 'objects_per_class': {'apple': 24, 'banana': 24, 'grape': 37, 'kiwi': 69, 'lemon': 24, 'orange': 39, 'peach': 27, 'pineapple': 36, 'strawberry': 55, 'watermelon': 104}}

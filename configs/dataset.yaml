@@ -1,0 +1,23 @@
+# FruitVision resolves path relative to THIS YAML file, then writes an absolute
+# copy for Ultralytics. Use the Python scripts below instead of the raw YOLO CLI.
+path: ../data/processed
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: apple
+  1: banana
+  2: grape
+  3: kiwi
+  4: lemon
+  5: orange
+  6: peach
+  7: pineapple
+  8: strawberry
+  9: watermelon
+roboflow:
+  workspace: simons-workspace-l89qb
+  project: fruit-smrhb-tp0nb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/simons-workspace-l89qb/fruit-smrhb-tp0nb/dataset/1

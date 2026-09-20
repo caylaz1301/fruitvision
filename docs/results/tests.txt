@@ -1,0 +1,61 @@
+test_completed_run_cannot_be_resumed (test_analysis.AnalysisTests.test_completed_run_cannot_be_resumed) ... ok
+test_duplicate_prediction_does_not_match_twice (test_analysis.AnalysisTests.test_duplicate_prediction_does_not_match_twice) ... ok
+test_iou_overlap_and_disjoint_boxes (test_analysis.AnalysisTests.test_iou_overlap_and_disjoint_boxes) ... ok
+test_no_predictions_retains_all_misses (test_analysis.AnalysisTests.test_no_predictions_retains_all_misses) ... ok
+test_resume_refuses_changed_dataset (test_analysis.AnalysisTests.test_resume_refuses_changed_dataset) ... ok
+test_wrong_class_is_both_false_positive_and_false_negative (test_analysis.AnalysisTests.test_wrong_class_is_both_false_positive_and_false_negative) ... ok
+test_counting_all_ten_classes (test_import_dataset.ImportTests.test_counting_all_ten_classes) ... ok
+test_cross_split_duplicates_block_import (test_import_dataset.ImportTests.test_cross_split_duplicates_block_import) ... ok
+test_import_preserves_splits_images_and_metadata (test_import_dataset.ImportTests.test_import_preserves_splits_images_and_metadata) ... ok
+test_invalid_annotations_produce_failed_audit_without_publishing (test_import_dataset.ImportTests.test_invalid_annotations_produce_failed_audit_without_publishing) ... ok
+test_known_polygon_and_id_preservation (test_import_dataset.ImportTests.test_known_polygon_and_id_preservation) ... ok
+test_missing_label_blocks_import (test_import_dataset.ImportTests.test_missing_label_blocks_import) ... ok
+test_mixed_annotations_preserve_every_object (test_import_dataset.ImportTests.test_mixed_annotations_preserve_every_object) ... ok
+test_polygon_rejects_invalid_coordinates_and_shape (test_import_dataset.ImportTests.test_polygon_rejects_invalid_coordinates_and_shape) ... ok
+test_repeated_annotation_rows_are_reported_and_preserved (test_import_dataset.ImportTests.test_repeated_annotation_rows_are_reported_and_preserved) ... ok
+test_source_zip_cannot_be_used_as_audit_output (test_import_dataset.ImportTests.test_source_zip_cannot_be_used_as_audit_output) ... ok
+test_symlink_destination_is_refused (test_import_dataset.ImportTests.test_symlink_destination_is_refused) ... ok
+test_ten_class_configuration_exact_order (test_import_dataset.ImportTests.test_ten_class_configuration_exact_order) ... ok
+test_unsafe_paths_and_duplicate_data_filenames_block_import (test_import_dataset.ImportTests.test_unsafe_paths_and_duplicate_data_filenames_block_import) ... ok
+test_wrong_mapping_blocks_import (test_import_dataset.ImportTests.test_wrong_mapping_blocks_import) ... ok
+test_annotation_validation (test_pipeline.PipelineTests.test_annotation_validation) ... ok
+test_cli_help_and_missing_data (test_pipeline.PipelineTests.test_cli_help_and_missing_data) ... ok
+test_config_paths_and_leakage (test_pipeline.PipelineTests.test_config_paths_and_leakage) ... ok
+test_counts_and_empty_predictions (test_pipeline.PipelineTests.test_counts_and_empty_predictions) ... ok
+test_invalid_detection_scores_and_classes (test_pipeline.PipelineTests.test_invalid_detection_scores_and_classes) ... ok
+test_metric_averaging_and_absent_classes (test_pipeline.PipelineTests.test_metric_averaging_and_absent_classes) ... ok
+test_missing_label_is_not_silent_background (test_pipeline.PipelineTests.test_missing_label_is_not_silent_background) ... ok
+test_missing_weights_are_clear (test_pipeline.PipelineTests.test_missing_weights_are_clear) ... ok
+test_neighboring_labels_do_not_overlap (test_pipeline.PipelineTests.test_neighboring_labels_do_not_overlap) ... ok
+test_processed_audit_tracks_annotation_changes (test_pipeline.PipelineTests.test_processed_audit_tracks_annotation_changes) ... ok
+test_remove_only_exact_duplicate_rows (test_pipeline.PipelineTests.test_remove_only_exact_duplicate_rows) ... ok
+test_seeded_split_preserves_pairs_and_refuses_overwrite (test_pipeline.PipelineTests.test_seeded_split_preserves_pairs_and_refuses_overwrite) ... ok
+test_split_rejects_duplicate_images (test_pipeline.PipelineTests.test_split_rejects_duplicate_images) ... ok
+test_ultralytics_metrics_with_no_predictions (test_pipeline.PipelineTests.test_ultralytics_metrics_with_no_predictions) ... ok
+test_ultralytics_result_extraction (test_pipeline.PipelineTests.test_ultralytics_result_extraction) ... ok
+test_visualization_preserves_source_and_handles_empty (test_pipeline.PipelineTests.test_visualization_preserves_source_and_handles_empty) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 2.223s
+
+OK
+Warning: train has no annotations for: apple, banana, grape, kiwi, lemon, peach, pineapple, watermelon.
+Warning: val has no annotations for: apple, banana, grape, kiwi, lemon, peach, pineapple, watermelon.
+Warning: test has no annotations for: apple, banana, grape, kiwi, lemon, peach, pineapple, watermelon.
+Warning: train has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: val has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: test has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: train has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: val has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: test has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: train has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: val has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: train has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: val has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: test has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: train has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: val has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: test has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: train has no annotations for: grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: val has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.
+Warning: test has no annotations for: banana, grape, kiwi, lemon, orange, peach, pineapple, strawberry, watermelon.

@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "examples": [
+    {
+      "category": "single_object",
+      "image": "/Users/vdr/Documents/fruitvision/data/processed/images/test/-00064_jpeg_jpg.rf.b4594ae38c4757c9f75dcdafa410ad2d.jpg",
+      "json": "outputs/predictions/baseline/-00064_jpeg_jpg.rf.b4594ae38c4757c9f75dcdafa410ad2d_detections.json",
+      "annotated": "outputs/predictions/baseline/-00064_jpeg_jpg.rf.b4594ae38c4757c9f75dcdafa410ad2d_annotated.jpg",
+      "device": "cpu",
+      "summary": {
+        "counts": {
+          "apple": 1,
+          "banana": 0,
+          "grape": 0,
+          "kiwi": 0,
+          "lemon": 0,
+          "orange": 0,
+          "peach": 0,
+          "pineapple": 0,
+          "strawberry": 0,
+          "watermelon": 0
+        },
+        "total_objects": 1,
+        "average_confidence": 0.9588115811347961,
+        "inference_time_ms": 841.1362910010212
+      },
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "category": "multiple_objects",
+      "image": "/Users/vdr/Documents/fruitvision/data/processed/images/test/-_-_-_jpg.rf.a0d593e0badfa96a8cb5b3f2a23559d9.jpg",
+      "json": "outputs/predictions/baseline/-_-_-_jpg.rf.a0d593e0badfa96a8cb5b3f2a23559d9_detections.json",
+      "annotated": "outputs/predictions/baseline/-_-_-_jpg.rf.a0d593e0badfa96a8cb5b3f2a23559d9_annotated.jpg",
+      "device": "cpu",
+      "summary": {
+        "counts": {
+          "apple": 0,
+          "banana": 0,
+          "grape": 2,
+          "kiwi": 0,
+          "lemon": 0,
+          "orange": 0,
+          "peach": 0,
+          "pineapple": 0,
+          "strawberry": 0,
+          "watermelon": 0
+        },
+        "total_objects": 2,
+        "average_confidence": 0.6303080022335052,
+        "inference_time_ms": 644.3885410008079
+      },
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "category": "crowded",
+      "image": "/Users/vdr/Documents/fruitvision/data/processed/images/test/img-52-_jpg.rf.5433e10c6124fdbbe7ec5d2c28466b21.jpg",
+      "json": "outputs/predictions/baseline/img-52-_jpg.rf.5433e10c6124fdbbe7ec5d2c28466b21_detections.json",
+      "annotated": "outputs/predictions/baseline/img-52-_jpg.rf.5433e10c6124fdbbe7ec5d2c28466b21_annotated.jpg",
+      "device": "cpu",
+      "summary": {
+        "counts": {
+          "apple": 0,
+          "banana": 0,
+          "grape": 0,
+          "kiwi": 0,
+          "lemon": 0,
+          "orange": 0,
+          "peach": 0,
+          "pineapple": 0,
+          "strawberry": 0,
+          "watermelon": 21
+        },
+        "total_objects": 21,
+        "average_confidence": 0.844769184078489,
+        "inference_time_ms": 610.1857920002658
+      },
+      "tp": 20,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "category": "small_objects",
+      "image": "/Users/vdr/Documents/fruitvision/data/processed/images/test/img-34-_jpg.rf.62935f10a325b1d42e4eb2dc9c965b0b.jpg",
+      "json": "outputs/predictions/baseline/img-34-_jpg.rf.62935f10a325b1d42e4eb2dc9c965b0b_detections.json",
+      "annotated": "outputs/predictions/baseline/img-34-_jpg.rf.62935f10a325b1d42e4eb2dc9c965b0b_annotated.jpg",
+      "device": "cpu",
+      "summary": {
+        "counts": {
+          "apple": 0,
+          "banana": 0,
+          "grape": 0,
+          "kiwi": 0,
+          "lemon": 0,
+          "orange": 0,
+          "peach": 0,
+          "pineapple": 0,
+          "strawberry": 0,
+          "watermelon": 8
+        },
+        "total_objects": 8,
+        "average_confidence": 0.5495042093098164,
+        "inference_time_ms": 619.9215830001776
+      },
+      "tp": 3,
+      "fp": 5,
+      "fn": 1
+    },
+    {
+      "category": "false_negatives",
+      "image": "/Users/vdr/Documents/fruitvision/data/processed/images/test/530_jpg.rf.0b8c1c76957420cdacec1fd22401edbc.jpg",
+      "json": "outputs/predictions/baseline/530_jpg.rf.0b8c1c76957420cdacec1fd22401edbc_detections.json",
+      "annotated": "outputs/predictions/baseline/530_jpg.rf.0b8c1c76957420cdacec1fd22401edbc_annotated.jpg",
+      "device": "cpu",
+      "summary": {
+        "counts": {
+          "apple": 0,
+          "banana": 0,
+          "grape": 0,
+          "kiwi": 0,
+          "lemon": 0,
+          "orange": 0,
+          "peach": 0,
+          "pineapple": 2,
+          "strawberry": 0,
+          "watermelon": 0
+        },
+        "total_objects": 2,
+        "average_confidence": 0.4515935331583023,
+        "inference_time_ms": 613.6263749995123
+      },
+      "tp": 0,
+      "fp": 2,
+      "fn": 3
+    }
+  ]
+}
